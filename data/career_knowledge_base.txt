@@ -1,5 +1,0 @@
-Data Scientist: Requires Python, Statistics, Machine Learning. High future growth in data-driven industries.
-Software Developer: Strong programming, logic. Continues to grow with emerging tech.
-Graphic Designer: Creativity and tools like Adobe. Demand in digital media.
-Mechanical Engineer: Requires design, thermodynamics, and materials. Moderate growth with automation.
-Teacher: Requires communication, subject knowledge. Steady demand in education.
