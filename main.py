@@ -3,10 +3,20 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 from counselor import get_career_recommendation
 
-# Predefined options
-skill_options = ["Python", "Java", "Data Analysis", "Machine Learning", "Web Development"]
-interest_options = ["AI", "Web", "Mobile Apps", "Gaming", "Data Science"]
-strength_options = ["Problem Solving", "Creativity", "Teamwork", "Leadership", "Communication"]
+# Predefined options (expanded to match counselor.py logic)
+skill_options = [
+    "Python", "Java", "Data Analysis", "Machine Learning", "Web Development",
+    "Frontend", "Backend", "Mobile Development", "Networking", "Cloud", "Social Media"
+]
+interest_options = [
+    "AI", "Web", "Mobile Apps", "Gaming", "Data Science", "Cybersecurity", "DevOps",
+    "Game Development", "Finance", "Graphic Design", "Marketing", "Education", "Law",
+    "Biology", "Entrepreneurship"
+]
+strength_options = [
+    "Problem Solving", "Creativity", "Teamwork", "Leadership", "Communication",
+    "Economics", "Writing", "Teaching", "Debate", "Medicine"
+]
 
 def get_recommendation():
     name = entry_name.get()
