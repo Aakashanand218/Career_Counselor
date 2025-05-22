@@ -3,19 +3,37 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 from counselor import get_career_recommendation
 
-# Predefined options (expanded to match counselor.py logic)
+# Expanded options to match all counselor.py logic
 skill_options = [
     "Python", "Java", "Data Analysis", "Machine Learning", "Web Development",
-    "Frontend", "Backend", "Mobile Development", "Networking", "Cloud", "Social Media"
+    "Frontend", "Backend", "Mobile Development", "Networking", "Cloud", "Social Media",
+    "TensorFlow", "PyTorch", "Data Science", "HTML", "CSS", "JavaScript", "React",
+    "UX Design", "Node.js", "Django", "REST APIs", "Databases", "Authentication",
+    "API", "Flutter", "Swift", "Kotlin", "Firebase", "UI/UX Design", "Linux",
+    "Kali Linux", "Wireshark", "Pen Testing", "SQL", "Pandas", "NumPy",
+    "Data Visualization", "BI Tools", "Docker", "Kubernetes", "CI/CD", "AWS",
+    "Terraform", "Unity", "C#", "Unreal Engine", "3D Modeling", "Game Design",
+    "Excel", "Financial Modeling", "Accounting", "Bloomberg", "CFA Basics",
+    "Photoshop", "Illustrator", "Figma", "Typography", "Branding", "SEO",
+    "Research", "Writing Tools", "WordPress", "Editorial Skills", "SEM",
+    "Google Ads", "Analytics", "Social Media Strategy", "LMS Tools", "Pedagogy",
+    "Subject Expertise", "Legal Research", "Argumentation", "Documentation",
+    "Case Law", "Biology", "Chemistry", "Human Anatomy", "Medical Aptitude",
+    "Business Planning", "Marketing", "Fundraising", "Product Development",
+    "Problem Solving", "Programming (C++/Java/Python)", "DSA", "Git", "Agile"
 ]
+
 interest_options = [
     "AI", "Web", "Mobile Apps", "Gaming", "Data Science", "Cybersecurity", "DevOps",
     "Game Development", "Finance", "Graphic Design", "Marketing", "Education", "Law",
-    "Biology", "Entrepreneurship"
+    "Biology", "Entrepreneurship", "Frontend", "API", "Cloud", "Social Media",
+    "Communication"
 ]
+
 strength_options = [
     "Problem Solving", "Creativity", "Teamwork", "Leadership", "Communication",
-    "Economics", "Writing", "Teaching", "Debate", "Medicine"
+    "Economics", "Writing", "Teaching", "Debate", "Medicine", "Creativity",
+    "Economics", "Writing", "Teaching", "Debate", "Medicine", "Leadership"
 ]
 
 def get_recommendation():
